@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "DC Government",
+      "group": 1,
+      "size": 135628
+    },
+    {
+      "id": "OCTO",
+      "group": 1,
+      "size": 135297
+    },
+    {
+      "id": "USA",
+      "group": 1,
+      "size": 130742
+    },
+    {
+      "id": "Washington DC",
+      "group": 1,
+      "size": 99714
+    },
+    {
+      "id": "Copyright Law",
+      "group": 1,
+      "size": 63801
+    },
+    {
+      "id": "NCR",
+      "group": 1,
+      "size": 42180
+    },
+    {
+      "id": "Exchange Administrative Group",
+      "group": 1,
+      "size": 38196
+    },
+    {
+      "id": "Photo",
+      "group": 1,
+      "size": 27163
+    },
+    {
+      "id": "Dataminr",
+      "group": 1,
+      "size": 26137
+    },
+    {
+      "id": "DELAWARE",
+      "group": 1,
+      "size": 17891
+    }
+  ],
+  "links": [
+    {
+      "source": "DC Government",
+      "target": "OCTO",
+      "value": 135293
+    },
+    {
+      "source": "DC Government",
+      "target": "USA",
+      "value": 130727
+    },
+    {
+      "source": "DC Government",
+      "target": "Washington DC",
+      "value": 99699
+    },
+    {
+      "source": "DC Government",
+      "target": "Copyright Law",
+      "value": 63798
+    },
+    {
+      "source": "DC Government",
+      "target": "NCR",
+      "value": 42174
+    },
+    {
+      "source": "DC Government",
+      "target": "Exchange Administrative Group",
+      "value": 38194
+    },
+    {
+      "source": "DC Government",
+      "target": "Photo",
+      "value": 27163
+    },
+    {
+      "source": "DC Government",
+      "target": "Dataminr",
+      "value": 26133
+    },
+    {
+      "source": "DC Government",
+      "target": "DELAWARE",
+      "value": 17890
+    },
+    {
+      "source": "OCTO",
+      "target": "USA",
+      "value": 130424
+    },
+    {
+      "source": "OCTO",
+      "target": "Washington DC",
+      "value": 99515
+    },
+    {
+      "source": "OCTO",
+      "target": "Copyright Law",
+      "value": 63644
+    },
+    {
+      "source": "OCTO",
+      "target": "NCR",
+      "value": 42065
+    },
+    {
+      "source": "OCTO",
+      "target": "Exchange Administrative Group",
+      "value": 37889
+    },
+    {
+      "source": "OCTO",
+      "target": "Photo",
+      "value": 27120
+    },
+    {
+      "source": "OCTO",
+      "target": "Dataminr",
+      "value": 26067
+    },
+    {
+      "source": "OCTO",
+      "target": "DELAWARE",
+      "value": 17869
+    },
+    {
+      "source": "USA",
+      "target": "Washington DC",
+      "value": 98272
+    },
+    {
+      "source": "USA",
+      "target": "Copyright Law",
+      "value": 62974
+    },
+    {
+      "source": "USA",
+      "target": "NCR",
+      "value": 41217
+    },
+    {
+      "source": "USA",
+      "target": "Exchange Administrative Group",
+      "value": 36431
+    },
+    {
+      "source": "USA",
+      "target": "Photo",
+      "value": 26695
+    },
+    {
+      "source": "USA",
+      "target": "Dataminr",
+      "value": 25245
+    },
+    {
+      "source": "USA",
+      "target": "DELAWARE",
+      "value": 17553
+    },
+    {
+      "source": "Washington DC",
+      "target": "Copyright Law",
+      "value": 46767
+    },
+    {
+      "source": "Washington DC",
+      "target": "NCR",
+      "value": 33831
+    },
+    {
+      "source": "Washington DC",
+      "target": "Exchange Administrative Group",
+      "value": 25353
+    },
+    {
+      "source": "Washington DC",
+      "target": "Photo",
+      "value": 20420
+    },
+    {
+      "source": "Washington DC",
+      "target": "Dataminr",
+      "value": 19271
+    },
+    {
+      "source": "Washington DC",
+      "target": "DELAWARE",
+      "value": 16531
+    },
+    {
+      "source": "Copyright Law",
+      "target": "NCR",
+      "value": 19071
+    },
+    {
+      "source": "Copyright Law",
+      "target": "Exchange Administrative Group",
+      "value": 17760
+    },
+    {
+      "source": "Copyright Law",
+      "target": "Photo",
+      "value": 15190
+    },
+    {
+      "source": "Copyright Law",
+      "target": "Dataminr",
+      "value": 15187
+    },
+    {
+      "source": "Copyright Law",
+      "target": "DELAWARE",
+      "value": 7240
+    },
+    {
+      "source": "NCR",
+      "target": "Exchange Administrative Group",
+      "value": 14127
+    },
+    {
+      "source": "NCR",
+      "target": "Photo",
+      "value": 7844
+    },
+    {
+      "source": "NCR",
+      "target": "Dataminr",
+      "value": 5649
+    },
+    {
+      "source": "NCR",
+      "target": "DELAWARE",
+      "value": 5588
+    },
+    {
+      "source": "Exchange Administrative Group",
+      "target": "Photo",
+      "value": 7801
+    },
+    {
+      "source": "Exchange Administrative Group",
+      "target": "Dataminr",
+      "value": 7095
+    },
+    {
+      "source": "Exchange Administrative Group",
+      "target": "DELAWARE",
+      "value": 4149
+    },
+    {
+      "source": "Photo",
+      "target": "Dataminr",
+      "value": 5664
+    },
+    {
+      "source": "Photo",
+      "target": "DELAWARE",
+      "value": 2724
+    },
+    {
+      "source": "Dataminr",
+      "target": "DELAWARE",
+      "value": 4586
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+pandas
+networkx
+numpy
+tqdm
+spacy
+pdfminer.six
+sentence-transformers
+bertopic
+scikit-learn
+umap-learn 

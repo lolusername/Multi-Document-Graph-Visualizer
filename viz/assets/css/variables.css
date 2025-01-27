@@ -1,0 +1,11 @@
+:root {
+  /* Core visualization palette */
+  --viz-primary: #9ca756;        /* Deep blue */
+  --viz-secondary: #7b7ebc;      /* Medium blue */
+  --viz-accent: #dd8373;         /* Light blue */
+  --viz-highlight: #1D3557;      /* Dark blue */
+  --viz-background: #F6F3EC;     /* Light background */
+  --viz-text: hwb(210 17% 69%);           /* Dark text */
+  --viz-bar: #c48e65
+  
+} 

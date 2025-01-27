@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "nbcuni.com",
+      "group": 1,
+      "size": 73
+    },
+    {
+      "id": "protonmail.com",
+      "group": 1,
+      "size": 67
+    },
+    {
+      "id": "dc.gov",
+      "group": 1,
+      "size": 63
+    },
+    {
+      "id": "cnn.com",
+      "group": 1,
+      "size": 58
+    },
+    {
+      "id": "politico.com",
+      "group": 1,
+      "size": 53
+    },
+    {
+      "id": "bloomberg.net",
+      "group": 1,
+      "size": 41
+    },
+    {
+      "id": "gmail.com",
+      "group": 1,
+      "size": 38
+    },
+    {
+      "id": "politico.corn",
+      "group": 1,
+      "size": 32
+    },
+    {
+      "id": "wusa9.com",
+      "group": 1,
+      "size": 32
+    },
+    {
+      "id": "protonmail.corn",
+      "group": 1,
+      "size": 28
+    }
+  ],
+  "links": []
+}
