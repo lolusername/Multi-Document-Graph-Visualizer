@@ -1,0 +1,14 @@
+# Constants
+PDF_DIR := /app/txt_data
+TXT_DIR := /app/txt_data
+MIXED_DIR := /app/txt_data
+OUTPUT_DIR := /app/json_data
+
+.PHONY: run_txt
+
+run_txt:
+	@echo "Running full analysis on TXT directory..."
+	@mkdir -p $(OUTPUT_DIR)
+	@poetry run python main.py \
+		--pdf_dir $(TXT_DIR) \
+		--output_dir $(OUTPUT_DIR) 
