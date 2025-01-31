@@ -1,4 +1,4 @@
-# Multi-Document Graph Visualizer for Humanities and Social Sciences
+# Multi-Document Graph Visualizer for multi-document analysis
 
 A powerful tool for researchers in humanities and social sciences to discover and visualize connections across multiple texts, documents, and research materials.
 
