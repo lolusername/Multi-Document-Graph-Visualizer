@@ -1,22 +1,16 @@
 # Constants
-PDF_DIR := ./txt_data
 TXT_DIR := ./txt_data
-MIXED_DIR := ./txt_data
 OUTPUT_DIR := ./viz/public/d3_data
 PYTHON_VERSION := 3.10.13
 
-.PHONY: all setup install run run-txt run-mixed test test-txt test-mixed clean viz serve-frontend
+.PHONY: all setup install run  test clean viz serve-frontend
 
 help:
 	@echo "Available commands:"
 	@echo "  setup        - Initial project setup (first time setup)"
 	@echo "  install      - Install/update dependencies"
 	@echo "  run          - Run full analysis on PDF directory"
-	@echo "  run-txt      - Run full analysis on TXT directory"
-	@echo "  run-mixed    - Run full analysis on mixed directory"
 	@echo "  test         - Run test analysis on PDF directory (5 files)"
-	@echo "  test-txt     - Run test analysis on TXT directory (5 files)"
-	@echo "  test-mixed   - Run test analysis on mixed directory (5 files)"
 	@echo "  clean        - Remove generated files and cache"
 	@echo "  viz          - Launch visualization app"
 	@echo "  help         - Show this help message"
@@ -48,44 +42,17 @@ run: install
 	@echo "Running full analysis on PDF directory..."
 	@mkdir -p $(OUTPUT_DIR)
 	@poetry run python main.py \
-		--pdf_dir $(PDF_DIR) \
+		--pdf_dir $(TXT_DIR) \
 		--output_dir $(OUTPUT_DIR)
 
 serve-frontend:
 	@echo "Starting Vue frontend..."
 	cd viz && npm run dev
 
-run-txt: install
-	@echo "Running full analysis on TXT directory..."
-	@mkdir -p $(OUTPUT_DIR)
-	@poetry run python main.py \
-		--pdf_dir $(TXT_DIR) \
-		--output_dir $(OUTPUT_DIR)
-
-run-mixed: install
-	@echo "Running full analysis on mixed directory..."
-	@poetry run python main.py \
-		--pdf_dir $(MIXED_DIR) \
-		--output_dir $(OUTPUT_DIR)
-
 test: install
 	@echo "Running test analysis on PDF directory (5 files)..."
 	@poetry run python main.py \
 		--pdf_dir $(PDF_DIR) \
-		--output_dir $(OUTPUT_DIR) \
-		--test
-
-test-txt: install
-	@echo "Running test analysis on TXT directory (5 files)..."
-	@poetry run python main.py \
-		--pdf_dir $(TXT_DIR) \
-		--output_dir $(OUTPUT_DIR) \
-		--test
-
-test-mixed: install
-	@echo "Running test analysis on mixed directory (5 files)..."
-	@poetry run python main.py \
-		--pdf_dir $(MIXED_DIR) \
 		--output_dir $(OUTPUT_DIR) \
 		--test
 
